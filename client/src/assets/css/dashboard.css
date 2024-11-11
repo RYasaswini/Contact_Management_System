@@ -1,0 +1,124 @@
+.dashboard {
+    display: flex;
+    height: 90vh;
+}
+
+.dashboard .sidebar-container {
+    width: 30%;
+    border-right: 2px solid gray;
+}
+
+.dashboard .contact-container {
+    width: 70%;
+    padding: 20px;
+    overflow-x: auto; /* Allows horizontal scrolling if necessary */
+}
+
+/* Contacts */
+.contact-list {
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.contact-table {
+    width: 100%; /* Takes the full width of the contact container */
+    height: auto; /* Allows table to grow based on content */
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 18px; /* Increases font size for larger table look */
+    line-height: 1.8; /* Spacing between lines */
+}
+
+.contact-table th,
+.contact-table td {
+    padding: 20px 25px; /* Increases cell padding for larger cells */
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+}
+
+.contact-table th {
+    background-color: rgb(5, 121, 121);
+    color: white;
+    font-weight: bold;
+    font-size: 20px; /* Larger header text */
+}
+
+.contact-table td {
+    color: rgb(43, 42, 42);
+}
+
+/* Table icons */
+.table-icon1,
+.table-icon2 {
+    margin: 0px 8px; /* More space between icons */
+    font-size: 20px; /* Increases icon size */
+    cursor: pointer;
+}
+
+.table-icon1 {
+    color: green;
+}
+
+.table-icon2 {
+    color: red;
+}
+
+/* Not Found */
+.not-found {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(20, 20, 20);
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*.dashboard{
+    display: flex;
+    height: 90vh;
+}
+
+.dashboard .sidebar-container{
+    width: 30%;
+    border-right: 2px solid gray;
+}
+
+.dashboard .contact-container{
+    width: 80%;
+}
+
+/*contacts*/
+
+/*.contact-list{
+    padding: 30px 70px 10px 70px;
+    text-align: center;
+}
+
+.table-icon1,
+.table-icon2{
+    margin: 0px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.table-iocn1{
+    color: green;
+}
+
+.table-icon1{
+    color: red;
+}
+
+.not-found{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(20,20,20);
+    color: yellow;
+    align-items: center;
+    justify-content: center;
+} give table big 
+
+*/
