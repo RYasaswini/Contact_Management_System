@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+.sidebar{
+    margin-top: 13%;
+}
+
+.sidebar-item{
+    width:100%;
+    padding: 10px 30px;
+}
+
+.sidebar-link{
+    text-decoration:none;
+    color: black;
+    font-size:16px;
+    font-weight: 700;
+    display: flex;
+    align-items:center;
+
+
+}
+
+.top-icon{
+    font-size: 30px;
+}
+.icon{
+    margin-right: 10px;
+}
+
+.active{
+    background-color:rgb(5,121,121);
+}
+
+.active .sidebar-link{
+    color: white;
+}
